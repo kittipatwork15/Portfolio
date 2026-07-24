@@ -1,0 +1,55 @@
+import type { Certification } from "@/types";
+
+export const certifications: Certification[] = [
+  {
+    title: "Official Practice Exam: AWS Certified AI Practitioner (AIF-C01 - English)",
+    issuer: "AWS Training & Certification",
+    date: "26 เมษายน 2026",
+    dateEn: "26 April 2026",
+    image: "/images/certification/AWS.png",
+    color: "#ff9900",
+  },
+  {
+    title: "AI Governance & Ethics",
+    issuer: "Thailand Digital Government Academy (TDGA)",
+    date: "21 พฤศจิกายน 2025",
+    dateEn: "21 November 2025",
+    image: "/images/certification/tdga.png",
+    color: "#0575a5",
+  },
+  {
+    title: "Cybersecurity Foundation Course",
+    issuer: "Thailand National Cyber Academy (THNCA)",
+    date: "23 ตุลาคม 2025",
+    dateEn: "23 October 2025",
+    credentialId: "9966976099KS",
+    image: "/images/certification/THNC.png",
+    color: "#183f7a",
+  },
+  {
+    title: "AWS Academy Graduate - Machine Learning Foundations - Training Badge",
+    issuer: "AWS Academy",
+    date: "02/06/2026",
+    dateEn: "02/06/2026",
+    image: "/images/certification/aws1.png",
+    color: "#01a8a5",
+  },
+  {
+    title: "Oracle Fusion Cloud Applications HCM Certified Foundations Associate",
+    issuer: "Oracle University",
+    date: "10 พฤษภาคม 2025",
+    dateEn: "10 May 2025",
+    credentialId: "101617448OMBPHCMCFA1",
+    image: "/images/certification/oracle_1.png",
+    color: "#c74634",
+  },
+  {
+    title: "Oracle Fusion Cloud Applications ERP Certified Foundations Associate",
+    issuer: "Oracle University",
+    date: "12 พฤษภาคม 2025",
+    dateEn: "12 May 2025",
+    credentialId: "101617448OMBPERPCFA1",
+    image: "/images/certification/oracle_2.png",
+    color: "#c74634",
+  },
+];
