@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: "Kittipat Suriyan | Frontend Developer and Tester Portfolio",
   description: "Bilingual frontend developer and software tester portfolio featuring projects, skills, activities, and certifications.",
   keywords: ["Frontend Developer", "Software Tester", "Portfolio", "Next.js", "TypeScript"],
+  icons: {
+    icon: "/images/Logo.png",
+    shortcut: "/images/Logo.png",
+    apple: "/images/Logo.png",
+  },
   openGraph: {
     title: "Kittipat Suriyan | Frontend Developer and Tester",
     description: "Frontend development, software testing, projects, technical skills, activities, and certifications.",
