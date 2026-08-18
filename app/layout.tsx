@@ -3,7 +3,7 @@ import LanguageProvider from "@/components/LanguageProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Kittipat Suriyan | Frontend Developer and Tester Portfolio",
+  title: "Kittipat Suriyan | Frontend Developer, Tester and Cybersecurity Portfolio",
   description: "Bilingual frontend developer and software tester portfolio featuring projects, skills, activities, and certifications.",
   keywords: ["Frontend Developer", "Software Tester", "Portfolio", "Next.js", "TypeScript"],
   icons: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     apple: "/images/Logo.png",
   },
   openGraph: {
-    title: "Kittipat Suriyan | Frontend Developer and Tester",
+    title: "Kittipat Suriyan | Frontend Developer, Tester and Cybersecurity",
     description: "Frontend development, software testing, projects, technical skills, activities, and certifications.",
     type: "website",
     locale: "th_TH",

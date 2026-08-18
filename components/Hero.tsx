@@ -21,8 +21,8 @@ export default function Hero() {
           <p className="role">{personal.role}</p>
           <p className="lead">
             {isThai
-              ? "ปัจจุบันศึกษาอยู่ชั้นปีที่ 4 ที่มหาวิทยาลัยกรุงเทพ คณะเทคโนโลยีสารสนเทศและนวัตกรรม สาขาวิทยาการคอมพิวเตอร์ และมีความสนใจด้าน Frontend และ Tester"
-              : "I am currently a fourth-year Computer Science student in the School of Information Technology and Innovation at Bangkok University, with an interest in Frontend Development and Software Testing."}
+              ? "ปัจจุบันศึกษาอยู่ชั้นปีที่ 4 ที่มหาวิทยาลัยกรุงเทพ คณะเทคโนโลยีสารสนเทศและนวัตกรรม สาขาวิทยาการคอมพิวเตอร์ และมีความสนใจด้าน Frontend, Tester และ Cybersecurity"
+              : "I am currently a fourth-year Computer Science student in the School of Information Technology and Innovation at Bangkok University, with an interest in Frontend Development, Software Testing, and Cybersecurity."}
           </p>
           <div className="hero-actions">
             <a className="button" href="#projects">

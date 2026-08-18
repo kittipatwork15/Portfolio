@@ -74,8 +74,8 @@ export default function About() {
 
             <p className="about-summary">
               {isThai
-                ? "ปัจจุบันศึกษาอยู่ชั้นปีที่ 4 ที่คณะเทคโนโลยีสารสนเทศและนวัตกรรม สาขาวิทยาการคอมพิวเตอร์ ซึ่งผมได้มีความสนใจในสายนี้เลยเลือกที่จะเข้าเรียนในสาขานี้ เนื่องจากมีความสนใจเกี่ยวกับคอมพิวเตอร์อยู่แล้ว และสนใจการพัฒนา Frontend Web Application รวมถึงการทดสอบซอฟต์แวร์ในสายงาน Tester โดยต้องพูดตรง ๆ ว่าผมใช้ AI เป็นเครื่องมือช่วยในการทำงานเป็นส่วนใหญ่ สิ่งที่ผมคาดหวังคือการเติบโตเป็นผู้ที่สามารถสร้างผลิตภัณฑ์คุณภาพและทำงานร่วมกับผู้อื่นได้ดี"
-                : "I am currently a fourth-year Computer Science student in the School of Information Technology and Innovation. I chose this field because I have always been interested in computers. I am particularly interested in frontend web application development and software testing. To be transparent, I use AI as a primary tool to support my work. I hope to grow into someone who can create quality products and collaborate effectively with others."}
+                ? "ปัจจุบันศึกษาอยู่ชั้นปีที่ 4 ที่คณะเทคโนโลยีสารสนเทศและนวัตกรรม สาขาวิทยาการคอมพิวเตอร์ ซึ่งผมได้มีความสนใจในสายนี้เลยเลือกที่จะเข้าเรียนในสาขานี้ เนื่องจากมีความสนใจเกี่ยวกับคอมพิวเตอร์อยู่แล้ว และสนใจการพัฒนา Frontend Web Application การทดสอบซอฟต์แวร์ในสายงาน Tester รวมถึง Cybersecurity โดยต้องพูดตรง ๆ ว่าผมใช้ AI เป็นเครื่องมือช่วยในการทำงานเป็นส่วนใหญ่ สิ่งที่ผมคาดหวังคือการเติบโตเป็นผู้ที่สามารถสร้างผลิตภัณฑ์คุณภาพและทำงานร่วมกับผู้อื่นได้ดี"
+                : "I am currently a fourth-year Computer Science student in the School of Information Technology and Innovation. I chose this field because I have always been interested in computers. I am particularly interested in frontend web application development, software testing, and cybersecurity. To be transparent, I use AI as a primary tool to support my work. I hope to grow into someone who can create quality products and collaborate effectively with others."}
             </p>
           </div>
         </div>

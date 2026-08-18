@@ -2,7 +2,7 @@ export const personal = {
   name: "Kittipat Suriyan",
   nameTh: "กิตติพัฒน์ สุริยันต์",
   shortName: "Kittipat",
-  role: "Frontend Developer and Tester",
+  role: "Frontend Developer, Software Tester and Cybersecurity Enthusiast",
   email: "kittipat.work15@gmail.com",
   phone: "+66 64 943 9817",
   location: "พระนครศรีอยุธยา, ประเทศไทย",
