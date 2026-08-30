@@ -57,6 +57,16 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
           <span className="project-modal-category">{project.category} App</span>
           <h2>{project.title}</h2>
           <p>{isThai ? project.description : project.descriptionEn}</p>
+          {project.details && (
+            <div className="project-detail-sections">
+              {project.details.map((detail) => (
+                <section key={detail.titleEn}>
+                  <h3>{isThai ? detail.title : detail.titleEn}</h3>
+                  <p>{isThai ? detail.description : detail.descriptionEn}</p>
+                </section>
+              ))}
+            </div>
+          )}
           <div className="project-modal-role"><strong>{isThai ? "หน้าที่รับผิดชอบ" : "My role"}</strong><span>{isThai ? project.role : project.roleEn}</span></div>
           <div className="tags">{project.technologies.map((technology) => <span key={technology}>{technology}</span>)}</div>
         </div>
